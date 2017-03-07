@@ -207,8 +207,8 @@
 				TargetAttributes = {
 					C2E726241E6E5597000F1732 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = HCPQ4JRW53;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = WMWXT9FPFV;
+						ProvisioningStyle = Manual;
 					};
 					C2E7263D1E6E5597000F1732 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -425,11 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HCPQ4JRW53;
+				DEVELOPMENT_TEAM = WMWXT9FPFV;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk.BlueTooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7132ea51-ce17-406a-bda0-a5b7d7410485";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Development;
 			};
 			name = Debug;
 		};
@@ -437,11 +439,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HCPQ4JRW53;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WMWXT9FPFV;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk.BlueTooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7132ea51-ce17-406a-bda0-a5b7d7410485";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Development;
 			};
 			name = Release;
 		};
