@@ -428,7 +428,7 @@
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk.BlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,7 +440,7 @@
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
 				INFOPLIST_FILE = BlueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk.BlueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundusk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -514,6 +514,7 @@
 				C2E726541E6E5597000F1732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E726551E6E5597000F1732 /* Build configuration list for PBXNativeTarget "BlueToothTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				C2E726571E6E5597000F1732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E726581E6E5597000F1732 /* Build configuration list for PBXNativeTarget "BlueToothUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				C2E7265A1E6E5597000F1732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
